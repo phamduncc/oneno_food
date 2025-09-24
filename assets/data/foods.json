@@ -1,0 +1,180 @@
+{
+  "Hà Nội": {
+    "Món chính": [
+      {
+        "name": "Phở bò",
+        "image": "pho_bo.jpg",
+        "description": "Món phở truyền thống với nước dùng trong, ngọt từ xương bò. Bánh phở dai, thịt bò tái hoặc chín, ăn kèm với rau thơm và nước mắm pha.",
+        "location": "Phở Thìn 13 Lò Đúc, Phở Gia Truyền Bát Đàn"
+      },
+      {
+        "name": "Bún chả",
+        "image": "bun_cha.jpg",
+        "description": "Món ăn đặc trưng Hà Nội với chả nướng thơm lừng, bún tươi và nước mắm chua ngọt. Ăn kèm với rau sống và nem rán.",
+        "location": "Bún chả Hương Liên, Bún chả Đắc Kim"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh cuốn Thanh Trì",
+        "image": "banh_cuon.jpg",
+        "description": "Bánh cuốn mỏng dai làm từ bột gạo, nhân thịt băm và nấm mèo. Ăn kèm chả quế và nước mắm pha loãng.",
+        "location": "Làng Thanh Trì, Hà Nội"
+      },
+      {
+        "name": "Chả cá Lã Vọng",
+        "image": "cha_ca.jpg",
+        "description": "Cá lăng cắt miếng, ướp nghệ và các gia vị, nướng trên bếp than. Ăn với bún, rau thơm và mắm tôm.",
+        "location": "Phố Chả Cá, Hà Nội"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Cà phê trứng",
+        "image": "ca_phe_trung.jpg",
+        "description": "Cà phê đen đậm đà phủ lớp kem trứng béo ngậy, ngọt dịu. Món đồ uống độc đáo chỉ có ở Hà Nội.",
+        "location": "Cà phê Giảng, Cà phê Đinh"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Bánh pía Hà Nội",
+        "image": "banh_pia.jpg",
+        "description": "Bánh pía nhân đậu xanh hoặc thập cẩm, vỏ bánh mỏng giòn. Đặc sản làm quà của Hà Nội.",
+        "location": "Các cửa hàng bánh kẹo trên phố cổ"
+      }
+    ]
+  },
+  "Huế": {
+    "Món chính": [
+      {
+        "name": "Bún bò Huế",
+        "image": "bun_bo_hue.jpg",
+        "description": "Món bún nổi tiếng với nước dùng cay nồng từ sả, ớt và mắm ruốc. Có thịt bò, chả cua và huyết.",
+        "location": "Bún bò Mệ Kéo, Bún bò Bà Tuyết"
+      },
+      {
+        "name": "Cơm hến",
+        "image": "com_hen.jpg",
+        "description": "Cơm trắng chan nước hến đậm đà, ăn kèm rau sống, bánh tráng nướng và các loại gia vị.",
+        "location": "Cơm hến Lệ, Cơm hến Bà Bé"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh khoái",
+        "image": "banh_khoai.jpg",
+        "description": "Bánh xèo mini có nhân tôm, thịt, giá đỗ. Cuốn với bánh tráng, rau sống và chấm tương.",
+        "location": "Bánh khoái Lạc Thiện"
+      },
+      {
+        "name": "Chè Huế",
+        "image": "che_hue.jpg",
+        "description": "Chè đậu đỏ, chè bưởi, chè thái với nhiều topping như bánh lọt, thạch, đậu phộng rang.",
+        "location": "Chè Hẻm, Chè Bà Dậu"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Trà sen Huế",
+        "image": "tra_sen.jpg",
+        "description": "Trà xanh ướp hương sen tự nhiên, có vị thơm dịu và thanh mát đặc trưng của cố đô.",
+        "location": "Các tiệm trà truyền thống Huế"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Mè xửng",
+        "image": "me_xung.jpg",
+        "description": "Kẹo mè truyền thống Huế, giòn tan, ngọt dịu với hương vị mè thơm đặc trưng.",
+        "location": "Làng nghề Mè xửng Huế"
+      }
+    ]
+  },
+  "TP. Hồ Chí Minh": {
+    "Món chính": [
+      {
+        "name": "Hủ tiếu Nam Vang",
+        "image": "hu_tieu.jpg",
+        "description": "Món hủ tiếu trong với nước dùng ngọt từ xương heo, tôm khô. Có tôm, thịt, gan, tim.",
+        "location": "Hủ tiếu Nam Vang Hai Lúa, Hủ tiếu Mỹ Tho"
+      },
+      {
+        "name": "Bánh mì Sài Gòn",
+        "image": "banh_mi.jpg",
+        "description": "Bánh mì giòn rụm với nhiều loại nhân: pate, chả lụa, thịt nướng, trứng ốp la.",
+        "location": "Bánh mì Huỳnh Hoa, Bánh mì Như Lan"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh tráng nướng",
+        "image": "banh_trang_nuong.jpg",
+        "description": "Bánh tráng nướng giòn, phết mỡ hành, rắc khô bò, trứng cút và mayonnaise.",
+        "location": "Đường Nguyễn Thượng Hiền, Quận 3"
+      },
+      {
+        "name": "Chè thái",
+        "image": "che_thai.jpg",
+        "description": "Chè đá bào với nhiều topping: thạch, đậu đỏ, sương sáo, nước cốt dừa.",
+        "location": "Chè Thái Lan Ông, Chè 4 mùa"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Cà phê sữa đá",
+        "image": "ca_phe_sua_da.jpg",
+        "description": "Cà phê phin truyền thống pha với sữa đặc ngọt, uống với đá lạnh.",
+        "location": "Cà phê Chồn Vàng, Cà phê Cộng"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Kẹo dừa Bến Tre",
+        "image": "keo_dua.jpg",
+        "description": "Kẹo dừa thơm ngọt làm từ cơm dừa tươi và đường thốt nốt tự nhiên.",
+        "location": "Các cửa hàng đặc sản miền Tây"
+      }
+    ]
+  },
+  "Đà Nẵng": {
+    "Món chính": [
+      {
+        "name": "Mì Quảng",
+        "image": "mi_quang.jpg",
+        "description": "Món mì đặc trưng miền Trung với nước dùng đậm đà, bánh tráng mè và nhiều topping.",
+        "location": "Mì Quảng Bà Mua, Mì Quảng 1A"
+      },
+      {
+        "name": "Cao lầu Hội An",
+        "image": "cao_lau.jpg",
+        "description": "Mì cao lầu dai, thịt xá xíu, rau sống và nước dùng đặc biệt chỉ có ở Hội An.",
+        "location": "Cao lầu Thành, Cao lầu Bà Lệ"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh xèo miền Trung",
+        "image": "banh_xeo_mt.jpg",
+        "description": "Bánh xèo nhỏ, giòn tan với nhân tôm thịt, ăn kèm rau sống và nước chấm đặc biệt.",
+        "location": "Bánh xèo Bà Dưỡng"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Chè bắp",
+        "image": "che_bap.jpg",
+        "description": "Chè ngô ngọt mát, có thể ăn nóng hoặc lạnh, thường có thêm đậu xanh và nước cốt dừa.",
+        "location": "Các quán chè truyền thống Đà Nẵng"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Bánh tráng cuốn thịt heo",
+        "image": "banh_trang_cuon.jpg",
+        "description": "Bánh tráng mỏng cuốn thịt heo nướng thơm, ăn kèm rau sống và nước chấm.",
+        "location": "Chợ Hàn, Chợ Cồn"
+      }
+    ]
+  }
+}
