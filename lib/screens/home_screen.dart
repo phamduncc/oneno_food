@@ -4,9 +4,11 @@ import '../models/province_food.dart';
 import '../services/food_data_service.dart';
 import '../services/favorites_service.dart';
 import '../widgets/food_category_card.dart';
+import '../l10n/app_localizations.dart';
 import 'food_detail_screen.dart';
 import 'favorites_screen.dart';
 import 'about_screen.dart';
+import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -68,6 +70,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    
     if (isLoading) {
       return Scaffold(
         body: Center(
@@ -80,9 +84,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const SizedBox(height: 16),
-              const Text(
-                'Đang tải dữ liệu...',
-                style: TextStyle(fontSize: 16),
+              Text(
+                l10n.loading,
+                style: const TextStyle(fontSize: 16),
               ),
             ],
           ),
@@ -103,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 16),
               Text(
-                'Lỗi: $error',
+                '${l10n.error}: $error',
                 textAlign: TextAlign.center,
                 style: const TextStyle(fontSize: 16),
               ),
@@ -126,9 +130,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'Đặc sản vùng miền Việt Nam',
-          style: TextStyle(
+        title: Text(
+          l10n.appSubtitle,
+          style: const TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
@@ -143,6 +147,17 @@ class _HomeScreenState extends State<HomeScreen> {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const FavoritesScreen(),
+                ),
+              );
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.settings, color: Colors.white),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const SettingsScreen(),
                 ),
               );
             },
@@ -180,9 +195,9 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    'Chọn tỉnh/thành phố',
-                    style: TextStyle(
+                  Text(
+                    l10n.selectProvince,
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 16,
                       fontWeight: FontWeight.w500,
@@ -213,9 +228,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               size: 20,
                             ),
                             const SizedBox(width: 8),
-                            const Text(
-                              'Chọn tỉnh/thành phố...',
-                              style: TextStyle(
+                            Text(
+                              l10n.selectProvinceHint,
+                              style: const TextStyle(
                                 color: Colors.grey,
                                 fontSize: 16,
                               ),
@@ -250,18 +265,19 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
-          // Nội dung chính
+          
+          // Hiển thị nội dung chính
           Expanded(
-            child: selectedProvinceFood == null
-                ? _buildWelcomeContent()
-                : _buildFoodContent(),
+            child: selectedProvince == null
+                ? _buildWelcomeContent(l10n)
+                : _buildFoodContent(l10n),
           ),
         ],
       ),
     );
   }
 
-  Widget _buildWelcomeContent() {
+  Widget _buildWelcomeContent(AppLocalizations l10n) {
     return Center(
       child: Padding(
         padding: const EdgeInsets.all(24.0),
@@ -275,7 +291,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             const SizedBox(height: 24),
             Text(
-              'Chào mừng đến với\nOneno Food',
+              l10n.welcomeTitle,
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 24,
@@ -284,10 +300,10 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             const SizedBox(height: 16),
-            const Text(
-              'Khám phá đặc sản vùng miền Việt Nam\nHãy chọn một tỉnh/thành phố để bắt đầu!',
+            Text(
+              l10n.welcomeSubtitle,
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 16,
                 color: Colors.grey,
                 height: 1.5,
@@ -299,7 +315,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _buildFoodContent() {
+  Widget _buildFoodContent(AppLocalizations l10n) {
     final foodsByCategory = selectedProvinceFood!.getFoodsByCategory();
     final categoryIcons = {
       'Món chính': Icons.restaurant,
@@ -312,7 +328,7 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: const EdgeInsets.all(16),
       children: [
         Text(
-          'Đặc sản $selectedProvince',
+          '${l10n.specialtiesOf} $selectedProvince',
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,

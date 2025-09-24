@@ -1,19 +1,59 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'screens/home_screen.dart';
+import 'services/language_service.dart';
+import 'l10n/app_localizations_delegate.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  
+  // Initialize language service
+  await LanguageService.instance.loadSavedLanguage();
+  
   runApp(const OnenoFoodApp());
 }
 
-class OnenoFoodApp extends StatelessWidget {
+class OnenoFoodApp extends StatefulWidget {
   const OnenoFoodApp({super.key});
+
+  @override
+  State<OnenoFoodApp> createState() => _OnenoFoodAppState();
+}
+
+class _OnenoFoodAppState extends State<OnenoFoodApp> {
+  @override
+  void initState() {
+    super.initState();
+    // Listen to language changes
+    LanguageService.instance.addListener(_onLanguageChanged);
+  }
+
+  @override
+  void dispose() {
+    LanguageService.instance.removeListener(_onLanguageChanged);
+    super.dispose();
+  }
+
+  void _onLanguageChanged() {
+    setState(() {});
+  }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Oneno Food - Đặc sản vùng miền Việt Nam',
+      title: 'Oneno Food - Vietnamese Regional Specialties',
       debugShowCheckedModeBanner: false,
+      
+      // Localization
+      locale: LanguageService.instance.currentLocale,
+      supportedLocales: AppLocalizationsDelegate.supportedLocales,
+      localizationsDelegates: const [
+        AppLocalizationsDelegate(),
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
       theme: ThemeData(
         primarySwatch: Colors.red,
         primaryColor: Colors.red[700],

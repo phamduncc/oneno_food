@@ -44,6 +44,20 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.19.0
+  
+  # QR Code Scanner
+  qr_code_scanner: ^1.0.1
+  permission_handler: ^11.0.1
+  
+  # Share functionality
+  share_plus: ^7.2.1
+  
+  # Maps (for future offline maps)
+  # flutter_map: ^6.1.0
+  # latlong2: ^0.8.1
+  
+  # URL launcher
+  url_launcher: ^6.2.1
 
 dev_dependencies:
   flutter_test:

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/food_item.dart';
+import '../services/image_service.dart';
 
 class FoodCategoryCard extends StatelessWidget {
   final String title;
@@ -96,26 +97,18 @@ class FoodCategoryCard extends StatelessWidget {
           padding: const EdgeInsets.all(12),
           decoration: BoxDecoration(
             border: Border.all(
-              color: Colors.grey[300]!,
               width: 1,
             ),
             borderRadius: BorderRadius.circular(8),
           ),
           child: Row(
             children: [
-              // Icon placeholder cho ảnh món ăn
-              Container(
-                width: 50,
-                height: 50,
-                decoration: BoxDecoration(
-                  color: Colors.red[100],
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Icon(
-                  Icons.restaurant_menu,
-                  color: Colors.red[700],
-                  size: 24,
-                ),
+              // Ảnh món ăn với ImageService
+              ImageService.instance.buildFoodImage(
+                imagePath: food.image,
+                width: 60,
+                height: 60,
+                borderRadius: BorderRadius.circular(8),
               ),
               const SizedBox(width: 12),
               // Thông tin món ăn

@@ -4,7 +4,7 @@
 
 ## ✨ Tính năng chính
 
-- 🗺️ **Khám phá đặc sản 63 tỉnh thành** - Tìm hiểu món ăn đặc trưng của từng vùng miền
+- 🗺️ **Khám phá đặc sản 34 đơn vị hành chính cấp tỉnh** - Tìm hiểu món ăn đặc trưng của từng vùng miền
 - 🍽️ **Phân loại rõ ràng** - Món chính, Ăn vặt, Đồ uống, Quà mang về
 - ❤️ **Danh sách yêu thích** - Lưu những món ăn bạn quan tâm
 - 📱 **Giao diện thân thiện** - Thiết kế hiện đại, dễ sử dụng
