@@ -88,11 +88,9 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   }
 
   String _findProvinceForFood(FoodItem food) {
-    final allFoods = FoodDataService.instance.getAllFoods();
-    for (final entry in allFoods.entries) {
-      if (entry.value.contains(food)) {
-        return entry.key;
-      }
+    // Nếu food đã có province thì trả về luôn
+    if (food.province != null && food.province!.isNotEmpty) {
+      return food.province!;
     }
     return 'Không xác định';
   }

@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:provider/provider.dart';
 import 'screens/home_screen.dart';
 import 'services/language_service.dart';
+import 'services/search_service.dart';
+import 'services/food_data_service.dart';
 import 'l10n/app_localizations_delegate.dart';
 
 void main() async {
@@ -41,19 +44,25 @@ class _OnenoFoodAppState extends State<OnenoFoodApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Oneno Food - Vietnamese Regional Specialties',
-      debugShowCheckedModeBanner: false,
-      
-      // Localization
-      locale: LanguageService.instance.currentLocale,
-      supportedLocales: AppLocalizationsDelegate.supportedLocales,
-      localizationsDelegates: const [
-        AppLocalizationsDelegate(),
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (context) => SearchService(FoodDataService.instance),
+        ),
       ],
+      child: MaterialApp(
+        title: 'Oneno Food - Vietnamese Regional Specialties',
+        debugShowCheckedModeBanner: false,
+        
+        // Localization
+        locale: LanguageService.instance.currentLocale,
+        supportedLocales: AppLocalizationsDelegate.supportedLocales,
+        localizationsDelegates: const [
+          AppLocalizationsDelegate(),
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
       theme: ThemeData(
         primarySwatch: Colors.red,
         primaryColor: Colors.red[700],
@@ -94,6 +103,7 @@ class _OnenoFoodAppState extends State<OnenoFoodApp> {
         ),
       ),
       home: const HomeScreen(),
+      ),
     );
   }
 }

@@ -11,6 +11,8 @@ FoodItem _$FoodItemFromJson(Map<String, dynamic> json) => FoodItem(
       image: json['image'] as String,
       description: json['description'] as String,
       location: json['location'] as String,
+      province: json['province'] as String?,
+      category: json['category'] as String?,
     );
 
 Map<String, dynamic> _$FoodItemToJson(FoodItem instance) => <String, dynamic>{
@@ -18,4 +20,6 @@ Map<String, dynamic> _$FoodItemToJson(FoodItem instance) => <String, dynamic>{
       'image': instance.image,
       'description': instance.description,
       'location': instance.location,
+      'province': instance.province,
+      'category': instance.category,
     };

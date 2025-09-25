@@ -9,6 +9,8 @@ import 'food_detail_screen.dart';
 import 'favorites_screen.dart';
 import 'about_screen.dart';
 import 'settings_screen.dart';
+import 'search_screen.dart';
+import 'statistics_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -131,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          l10n.appSubtitle,
+          l10n.appTitle,
           style: const TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.white,
@@ -140,6 +142,30 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.red[700],
         elevation: 0,
         actions: [
+          // IconButton(
+          //   icon: const Icon(Icons.search, color: Colors.white),
+          //   onPressed: () {
+          //     Navigator.push(
+          //       context,
+          //       MaterialPageRoute(
+          //         builder: (context) => const SearchScreen(),
+          //       ),
+          //     );
+          //   },
+          //   tooltip: 'Tìm kiếm món ăn',
+          // ),
+          IconButton(
+            icon: const Icon(Icons.analytics, color: Colors.white),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const StatisticsScreen(),
+                ),
+              );
+            },
+            tooltip: 'Thống kê',
+          ),
           IconButton(
             icon: const Icon(Icons.favorite, color: Colors.white),
             onPressed: () {
@@ -150,28 +176,52 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               );
             },
+            tooltip: 'Yêu thích',
           ),
-          IconButton(
-            icon: const Icon(Icons.settings, color: Colors.white),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const SettingsScreen(),
-                ),
-              );
+          PopupMenuButton<String>(
+            icon: const Icon(Icons.more_vert, color: Colors.white),
+            onSelected: (value) {
+              switch (value) {
+                case 'settings':
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const SettingsScreen(),
+                    ),
+                  );
+                  break;
+                case 'about':
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const AboutScreen(),
+                    ),
+                  );
+                  break;
+              }
             },
-          ),
-          IconButton(
-            icon: const Icon(Icons.info_outline, color: Colors.white),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const AboutScreen(),
+            itemBuilder: (context) => [
+              const PopupMenuItem(
+                value: 'settings',
+                child: Row(
+                  children: [
+                    Icon(Icons.settings),
+                    SizedBox(width: 8),
+                    Text('Cài đặt'),
+                  ],
                 ),
-              );
-            },
+              ),
+              const PopupMenuItem(
+                value: 'about',
+                child: Row(
+                  children: [
+                    Icon(Icons.info_outline),
+                    SizedBox(width: 8),
+                    Text('Giới thiệu'),
+                  ],
+                ),
+              ),
+            ],
           ),
         ],
       ),

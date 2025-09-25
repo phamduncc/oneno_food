@@ -51,39 +51,107 @@ class FoodDataService {
     return _foodData![province];
   }
 
-  /// Tìm kiếm món ăn theo tên
-  List<MapEntry<String, FoodItem>> searchFoods(String query) {
+  /// Lấy tất cả món ăn từ tất cả tỉnh/thành phố
+  Future<List<FoodItem>> getAllFoods() async {
     if (_foodData == null) {
-      throw StateError('Dữ liệu chưa được load. Hãy gọi loadFoodData() trước.');
+      await loadFoodData();
     }
 
-    final List<MapEntry<String, FoodItem>> results = [];
-    final String lowerQuery = query.toLowerCase();
-
-    _foodData!.forEach((province, provinceFood) {
-      for (final food in provinceFood.getAllFoods()) {
-        if (food.name.toLowerCase().contains(lowerQuery) ||
-            food.description.toLowerCase().contains(lowerQuery)) {
-          results.add(MapEntry(province, food));
+    final List<FoodItem> allFoods = [];
+    
+    for (final province in _foodData!.keys) {
+      final provinceFood = _foodData![province]!;
+      
+      // Lấy món ăn từ từng category
+      for (final category in provinceFood.toJson().keys) {
+        final foods = provinceFood.toJson()[category] as List<dynamic>;
+        for (final foodJson in foods) {
+          final food = FoodItem.fromJson(foodJson as Map<String, dynamic>);
+          allFoods.add(food.copyWith(
+            province: province,
+            category: category,
+          ));
         }
       }
-    });
-
-    return results;
+    }
+    
+    return allFoods;
   }
 
-  /// Lấy tất cả món ăn từ tất cả các tỉnh
-  Map<String, List<FoodItem>> getAllFoods() {
+  /// Lấy tất cả món ăn yêu thích
+  List<FoodItem> getAllFavoriteFoods(List<String> favoriteIds) {
     if (_foodData == null) {
       throw StateError('Dữ liệu chưa được load. Hãy gọi loadFoodData() trước.');
     }
 
-    final Map<String, List<FoodItem>> allFoods = {};
-    _foodData!.forEach((province, provinceFood) {
-      allFoods[province] = provinceFood.getAllFoods();
-    });
+    final List<FoodItem> favoriteFoods = [];
+    
+    for (final province in _foodData!.keys) {
+      final provinceFood = _foodData![province]!;
+      
+      // Kiểm tra từng category
+      for (final category in provinceFood.toJson().keys) {
+        final foods = provinceFood.toJson()[category] as List<dynamic>;
+        for (final foodJson in foods) {
+          final food = FoodItem.fromJson(foodJson as Map<String, dynamic>);
+          final foodId = '${province}_${category}_${food.name}';
+          
+          if (favoriteIds.contains(foodId)) {
+            favoriteFoods.add(food.copyWith(
+              province: province,
+              category: category,
+            ));
+          }
+        }
+      }
+    }
+    
+    return favoriteFoods;
+  }
+  
+  /// Lấy thống kê số lượng món ăn theo vùng miền
+  Map<String, int> getFoodStatsByRegion() {
+    if (_foodData == null) {
+      throw StateError('Dữ liệu chưa được load. Hãy gọi loadFoodData() trước.');
+    }
 
-    return allFoods;
+    final stats = <String, int>{};
+    
+    for (final province in _foodData!.keys) {
+      final provinceFood = _foodData![province]!;
+      int count = 0;
+      
+      // Đếm món ăn trong từng category
+      for (final category in provinceFood.toJson().keys) {
+        final foods = provinceFood.toJson()[category] as List<dynamic>;
+        count += foods.length;
+      }
+      
+      stats[province] = count;
+    }
+    
+    return stats;
+  }
+  
+  /// Lấy thống kê số lượng món ăn theo danh mục
+  Map<String, int> getFoodStatsByCategory() {
+    if (_foodData == null) {
+      throw StateError('Dữ liệu chưa được load. Hãy gọi loadFoodData() trước.');
+    }
+
+    final stats = <String, int>{};
+    
+    for (final province in _foodData!.keys) {
+      final provinceFood = _foodData![province]!;
+      
+      // Đếm món ăn trong từng category
+      for (final category in provinceFood.toJson().keys) {
+        final foods = provinceFood.toJson()[category] as List<dynamic>;
+        stats[category] = (stats[category] ?? 0) + foods.length;
+      }
+    }
+    
+    return stats;
   }
 
   /// Kiểm tra xem dữ liệu đã được load chưa
