@@ -3,13 +3,13 @@
     "Món chính": [
       {
         "name": "Phở bò",
-        "image": "pho_bo.jpg",
+        "image": "assets/images/pho_bo.jpg",
         "description": "Món phở truyền thống với nước dùng trong, ngọt từ xương bò. Bánh phở dai, thịt bò tái hoặc chín, ăn kèm với rau thơm và nước mắm pha.",
         "location": "Phở Thìn 13 Lò Đúc, Phở Gia Truyền Bát Đàn"
       },
       {
         "name": "Bún chả",
-        "image": "bun_cha.jpg",
+        "image": "assets/images/bun_cha.jpg",
         "description": "Món ăn đặc trưng Hà Nội với chả nướng thơm lừng, bún tươi và nước mắm chua ngọt. Ăn kèm với rau sống và nem rán.",
         "location": "Bún chả Hương Liên, Bún chả Đắc Kim"
       }
@@ -17,21 +17,15 @@
     "Ăn vặt": [
       {
         "name": "Bánh cuốn Thanh Trì",
-        "image": "banh_cuon.jpg",
+        "image": "assets/images/banh_cuon.jpg",
         "description": "Bánh cuốn mỏng dai làm từ bột gạo, nhân thịt băm và nấm mèo. Ăn kèm chả quế và nước mắm pha loãng.",
         "location": "Làng Thanh Trì, Hà Nội"
-      },
-      {
-        "name": "Chả cá Lã Vọng",
-        "image": "cha_ca.jpg",
-        "description": "Cá lăng cắt miếng, ướp nghệ và các gia vị, nướng trên bếp than. Ăn với bún, rau thơm và mắm tôm.",
-        "location": "Phố Chả Cá, Hà Nội"
       }
     ],
     "Đồ uống": [
       {
         "name": "Cà phê trứng",
-        "image": "ca_phe_trung.jpg",
+        "image": "assets/images/ca_phe_trung.jpg",
         "description": "Cà phê đen đậm đà phủ lớp kem trứng béo ngậy, ngọt dịu. Món đồ uống độc đáo chỉ có ở Hà Nội.",
         "location": "Cà phê Giảng, Cà phê Đinh"
       }
@@ -39,55 +33,9 @@
     "Quà mang về": [
       {
         "name": "Bánh pía Hà Nội",
-        "image": "banh_pia.jpg",
+        "image": "assets/images/banh_pia.jpg",
         "description": "Bánh pía nhân đậu xanh hoặc thập cẩm, vỏ bánh mỏng giòn. Đặc sản làm quà của Hà Nội.",
         "location": "Các cửa hàng bánh kẹo trên phố cổ"
-      }
-    ]
-  },
-  "Huế": {
-    "Món chính": [
-      {
-        "name": "Bún bò Huế",
-        "image": "bun_bo_hue.jpg",
-        "description": "Món bún nổi tiếng với nước dùng cay nồng từ sả, ớt và mắm ruốc. Có thịt bò, chả cua và huyết.",
-        "location": "Bún bò Mệ Kéo, Bún bò Bà Tuyết"
-      },
-      {
-        "name": "Cơm hến",
-        "image": "com_hen.jpg",
-        "description": "Cơm trắng chan nước hến đậm đà, ăn kèm rau sống, bánh tráng nướng và các loại gia vị.",
-        "location": "Cơm hến Lệ, Cơm hến Bà Bé"
-      }
-    ],
-    "Ăn vặt": [
-      {
-        "name": "Bánh khoái",
-        "image": "banh_khoai.jpg",
-        "description": "Bánh xèo mini có nhân tôm, thịt, giá đỗ. Cuốn với bánh tráng, rau sống và chấm tương.",
-        "location": "Bánh khoái Lạc Thiện"
-      },
-      {
-        "name": "Chè Huế",
-        "image": "che_hue.jpg",
-        "description": "Chè đậu đỏ, chè bưởi, chè thái với nhiều topping như bánh lọt, thạch, đậu phộng rang.",
-        "location": "Chè Hẻm, Chè Bà Dậu"
-      }
-    ],
-    "Đồ uống": [
-      {
-        "name": "Trà sen Huế",
-        "image": "tra_sen.jpg",
-        "description": "Trà xanh ướp hương sen tự nhiên, có vị thơm dịu và thanh mát đặc trưng của cố đô.",
-        "location": "Các tiệm trà truyền thống Huế"
-      }
-    ],
-    "Quà mang về": [
-      {
-        "name": "Mè xửng",
-        "image": "me_xung.jpg",
-        "description": "Kẹo mè truyền thống Huế, giòn tan, ngọt dịu với hương vị mè thơm đặc trưng.",
-        "location": "Làng nghề Mè xửng Huế"
       }
     ]
   },
@@ -95,13 +43,13 @@
     "Món chính": [
       {
         "name": "Hủ tiếu Nam Vang",
-        "image": "hu_tieu.jpg",
+        "image": "assets/images/hu_tieu.jpg",
         "description": "Món hủ tiếu trong với nước dùng ngọt từ xương heo, tôm khô. Có tôm, thịt, gan, tim.",
         "location": "Hủ tiếu Nam Vang Hai Lúa, Hủ tiếu Mỹ Tho"
       },
       {
         "name": "Bánh mì Sài Gòn",
-        "image": "banh_mi.jpg",
+        "image": "assets/images/banh_mi.jpg",
         "description": "Bánh mì giòn rụm với nhiều loại nhân: pate, chả lụa, thịt nướng, trứng ốp la.",
         "location": "Bánh mì Huỳnh Hoa, Bánh mì Như Lan"
       }
@@ -109,21 +57,15 @@
     "Ăn vặt": [
       {
         "name": "Bánh tráng nướng",
-        "image": "banh_trang_nuong.jpg",
+        "image": "assets/images/banh_trang_nuong.jpg",
         "description": "Bánh tráng nướng giòn, phết mỡ hành, rắc khô bò, trứng cút và mayonnaise.",
         "location": "Đường Nguyễn Thượng Hiền, Quận 3"
-      },
-      {
-        "name": "Chè thái",
-        "image": "che_thai.jpg",
-        "description": "Chè đá bào với nhiều topping: thạch, đậu đỏ, sương sáo, nước cốt dừa.",
-        "location": "Chè Thái Lan Ông, Chè 4 mùa"
       }
     ],
     "Đồ uống": [
       {
         "name": "Cà phê sữa đá",
-        "image": "ca_phe_sua_da.jpg",
+        "image": "assets/images/ca_phe_sua_da.jpg",
         "description": "Cà phê phin truyền thống pha với sữa đặc ngọt, uống với đá lạnh.",
         "location": "Cà phê Chồn Vàng, Cà phê Cộng"
       }
@@ -131,7 +73,7 @@
     "Quà mang về": [
       {
         "name": "Kẹo dừa Bến Tre",
-        "image": "keo_dua.jpg",
+        "image": "assets/images/keo_dua.jpg",
         "description": "Kẹo dừa thơm ngọt làm từ cơm dừa tươi và đường thốt nốt tự nhiên.",
         "location": "Các cửa hàng đặc sản miền Tây"
       }
@@ -141,21 +83,15 @@
     "Món chính": [
       {
         "name": "Mì Quảng",
-        "image": "mi_quang.jpg",
+        "image": "assets/images/mi_quang.jpg",
         "description": "Món mì đặc trưng miền Trung với nước dùng đậm đà, bánh tráng mè và nhiều topping.",
         "location": "Mì Quảng Bà Mua, Mì Quảng 1A"
-      },
-      {
-        "name": "Cao lầu Hội An",
-        "image": "cao_lau.jpg",
-        "description": "Mì cao lầu dai, thịt xá xíu, rau sống và nước dùng đặc biệt chỉ có ở Hội An.",
-        "location": "Cao lầu Thành, Cao lầu Bà Lệ"
       }
     ],
     "Ăn vặt": [
       {
         "name": "Bánh xèo miền Trung",
-        "image": "banh_xeo_mt.jpg",
+        "image": "assets/images/banh_xeo_mt.jpg",
         "description": "Bánh xèo nhỏ, giòn tan với nhân tôm thịt, ăn kèm rau sống và nước chấm đặc biệt.",
         "location": "Bánh xèo Bà Dưỡng"
       }
@@ -163,7 +99,7 @@
     "Đồ uống": [
       {
         "name": "Chè bắp",
-        "image": "che_bap.jpg",
+        "image": "assets/images/che_bap.jpg",
         "description": "Chè ngô ngọt mát, có thể ăn nóng hoặc lạnh, thường có thêm đậu xanh và nước cốt dừa.",
         "location": "Các quán chè truyền thống Đà Nẵng"
       }
@@ -171,89 +107,9 @@
     "Quà mang về": [
       {
         "name": "Bánh tráng cuốn thịt heo",
-        "image": "banh_trang_cuon.jpg",
+        "image": "assets/images/banh_trang_cuon.jpg",
         "description": "Bánh tráng mỏng cuốn thịt heo nướng thơm, ăn kèm rau sống và nước chấm.",
         "location": "Chợ Hàn, Chợ Cồn"
-      }
-    ]
-  },
-  "Cần Thơ": {
-    "Món chính": [
-      {
-        "name": "Bánh xèo miền Tây",
-        "image": "banh_xeo_mt.jpg",
-        "description": "Bánh xèo to, giòn rụm với nhân tôm thịt đầy đặn, ăn kèm rau sống và nước mắm chua ngọt.",
-        "location": "Bánh xèo Bà Thủy, Bánh xèo 46A"
-      },
-      {
-        "name": "Lẩu mắm",
-        "image": "lau_mam.jpg",
-        "description": "Lẩu đặc trưng miền Tây với nước dùng từ mắm cá linh, nhiều loại rau và cá sông.",
-        "location": "Lẩu mắm Bà Ba, Lẩu mắm Cần Thơ"
-      }
-    ],
-    "Ăn vặt": [
-      {
-        "name": "Bánh cống",
-        "image": "banh_cong.jpg",
-        "description": "Bánh chiên giòn hình tròn với nhân tôm, thịt, giá đỗ, ăn kèm rau sống.",
-        "location": "Chợ Cần Thơ, Chợ Cái Răng"
-      }
-    ],
-    "Đồ uống": [
-      {
-        "name": "Nước mía",
-        "image": "nuoc_mia.jpg",
-        "description": "Nước mía tươi mát từ cây mía miền Tây, ngọt tự nhiên và giải khát.",
-        "location": "Các xe nước mía dọc sông Hậu"
-      }
-    ],
-    "Quà mang về": [
-      {
-        "name": "Bánh tét lá cẩm",
-        "image": "banh_tet.jpg",
-        "description": "Bánh tét truyền thống miền Tây với lá cẩm tím đẹp mắt, nhân đậu xanh.",
-        "location": "Làng nghề bánh tét Cần Thơ"
-      }
-    ]
-  },
-  "Nha Trang": {
-    "Món chính": [
-      {
-        "name": "Bún chả cá",
-        "image": "bun_cha_ca_nt.jpg",
-        "description": "Bún với chả cá tươi ngon, nước dùng trong ngọt, ăn kèm rau thơm và bánh tráng nướng.",
-        "location": "Bún chả cá 199, Bún chả cá Nha Trang"
-      },
-      {
-        "name": "Nem nướng Ninh Hòa",
-        "image": "nem_nuong.jpg",
-        "description": "Nem nướng thơm lừng cuốn bánh tráng với rau sống, dưa leo và nước chấm đặc biệt.",
-        "location": "Nem nướng Ninh Hòa chính gốc"
-      }
-    ],
-    "Ăn vặt": [
-      {
-        "name": "Bánh căn",
-        "image": "banh_can.jpg",
-        "description": "Bánh căn tròn nhỏ nướng trên chảo gang, ăn kèm nước mắm pha và rau sống.",
-        "location": "Chợ Đầm, Chợ Xóm Mới"
-      }
-    ],
-    "Đồ uống": [
-      {
-        "name": "Nước mắm chua",
-        "image": "nuoc_mam_chua.jpg",
-        "description": "Đồ uống truyền thống Nha Trang từ nước mắm pha loãng, chua ngọt mát lạnh.",
-        "location": "Các quán ăn ven biển"
-      }
-    ],
-    "Quà mang về": [
-      {
-        "name": "Tôm khô",
-        "image": "tom_kho.jpg",
-        "description": "Tôm khô Nha Trang nổi tiếng thơm ngon, được phơi khô tự nhiên dưới nắng biển.",
-        "location": "Chợ Đầm, Cảng cá Nha Trang"
       }
     ]
   },
@@ -261,279 +117,107 @@
     "Món chính": [
       {
         "name": "Bánh đa cua",
-        "image": "banh_da_cua.jpg",
-        "description": "Bánh đa đỏ ăn với nước dùng cua đồng đậm đà, thịt cua và rau muống.",
-        "location": "Bánh đa cua Hải Phòng, Phố Lạch Tray"
-      },
-      {
-        "name": "Nem cua bể",
-        "image": "nem_cua_be.jpg",
-        "description": "Nem cuốn với thịt cua bể tươi ngon, bún tươi và rau thơm đặc trưng.",
-        "location": "Chợ Sắt, Chợ Cầu Đất"
+        "image": "assets/images/banh_da_cua.jpg",
+        "description": "Món bánh đa đỏ với nước dùng cua đồng đậm đà, thịt cua và các loại rau thơm.",
+        "location": "Bánh đa cua Bà Thin, Bánh đa cua Ngô Quyền"
       }
     ],
     "Ăn vặt": [
       {
-        "name": "Bánh mì que",
-        "image": "banh_mi_que.jpg",
-        "description": "Bánh mì nhỏ hình que giòn tan, ăn vặt đặc trưng của Hải Phòng.",
-        "location": "Các lò bánh mì truyền thống"
+        "name": "Nem cua bể",
+        "image": "assets/images/nem_cua_be.jpg",
+        "description": "Nem cuốn với cua bể tươi ngon, bánh tráng dai và rau thơm đặc trưng Hải Phòng.",
+        "location": "Chợ Sắt, Chợ Cầu Đất"
       }
     ],
     "Đồ uống": [
       {
-        "name": "Bia hơi",
-        "image": "bia_hoi.jpg",
-        "description": "Bia hơi tươi mát, đặc trưng của văn hóa ẩm thực miền Bắc.",
+        "name": "Bia hơi Hải Phòng",
+        "image": "assets/images/bia_hoi.jpg",
+        "description": "Bia hơi tươi ngon đặc trưng thành phố cảng, uống kèm đồ nhậu.",
         "location": "Các quán bia hơi phố cổ"
       }
     ],
     "Quà mang về": [
       {
-        "name": "Bánh ú",
-        "image": "banh_u.jpg",
-        "description": "Bánh ú truyền thống Hải Phòng với nhân đậu xanh hoặc thịt mặn.",
-        "location": "Làng nghề bánh ú Kiến An"
+        "name": "Bánh đậu xanh Hải Phòng",
+        "image": "assets/images/banh_dau_xanh_hp.jpg",
+        "description": "Bánh đậu xanh thơm béo, ngọt dịu đặc sản thành phố cảng.",
+        "location": "Các tiệm bánh kẹo Hải Phòng"
       }
     ]
   },
-  "Bà Rịa - Vũng Tàu": {
+  "Cần Thơ": {
     "Món chính": [
       {
-        "name": "Bánh khọt",
-        "image": "banh_khot.jpg",
-        "description": "Bánh khọt nhỏ xinh với tôm tươi, ăn kèm rau sống và nước mắm chua ngọt.",
-        "location": "Bánh khọt Gốc Vú Sữa, Bánh khọt Bà Năm"
-      },
-      {
-        "name": "Lẩu cá đuối",
-        "image": "lau_ca_duoi.jpg",
-        "description": "Lẩu cá đuối đặc sản biển với nước dùng chua cay, rau rừng và bánh tráng.",
-        "location": "Các nhà hàng hải sản Vũng Tàu"
+        "name": "Bánh xèo miền Tây",
+        "image": "assets/images/banh_xeo_mt.jpg",
+        "description": "Bánh xèo to, giòn rụm với nhân tôm thịt đầy đặn, ăn kèm rau sống và nước mắm chua ngọt.",
+        "location": "Bánh xèo Bà Thủy, Bánh xèo 46A"
       }
     ],
     "Ăn vặt": [
       {
-        "name": "Bánh bông lan trứng muối",
-        "image": "banh_bong_lan.jpg",
-        "description": "Bánh bông lan mềm mịn với lớp trứng muối béo ngậy, đặc sản Vũng Tàu.",
-        "location": "Tiệm bánh Như Lan, Bánh bông lan Vũng Tàu"
+        "name": "Bánh cống",
+        "image": "assets/images/banh_cong.jpg",
+        "description": "Bánh cống giòn rụm với nhân tôm, thịt, giá đỗ, ăn kèm rau sống.",
+        "location": "Chợ nổi Cái Răng"
       }
     ],
     "Đồ uống": [
       {
-        "name": "Nước dừa tươi",
-        "image": "nuoc_dua.jpg",
-        "description": "Nước dừa tươi mát lạnh từ những trái dừa xiêm xanh địa phương.",
-        "location": "Bãi biển Vũng Tàu"
+        "name": "Nước mía lau",
+        "image": "assets/images/nuoc_mia_lau.jpg",
+        "description": "Nước mía tươi ngọt mát từ mía lau đặc sản miền Tây.",
+        "location": "Các vườn mía Cần Thơ"
       }
     ],
     "Quà mang về": [
       {
-        "name": "Khô cá cơm",
-        "image": "kho_ca_com.jpg",
-        "description": "Khô cá cơm Vũng Tàu nổi tiếng thơm ngon, được phơi khô tự nhiên.",
-        "location": "Chợ Vũng Tàu, Cảng cá"
+        "name": "Kẹo dừa sáp",
+        "image": "assets/images/keo_dua_sap.jpg",
+        "description": "Kẹo dừa sáp thơm béo, ngọt dịu đặc sản miền Tây Nam Bộ.",
+        "location": "Các cửa hàng đặc sản Cần Thơ"
       }
     ]
   },
-  "Khánh Hòa": {
-    "Món chính": [
-      {
-        "name": "Bún chả cá Nha Trang",
-        "image": "bun_cha_ca_nt.jpg",
-        "description": "Bún với chả cá tươi ngon, nước dùng trong ngọt, ăn kèm rau thơm và bánh tráng nướng.",
-        "location": "Bún chả cá 199, Bún chả cá Nha Trang"
-      },
-      {
-        "name": "Nem nướng Ninh Hòa",
-        "image": "nem_nuong.jpg",
-        "description": "Nem nướng thơm lừng cuốn bánh tráng với rau sống, dưa leo và nước chấm đặc biệt.",
-        "location": "Nem nướng Ninh Hòa chính gốc"
-      }
-    ],
-    "Ăn vặt": [
-      {
-        "name": "Bánh căn",
-        "image": "banh_can.jpg",
-        "description": "Bánh căn tròn nhỏ nướng trên chảo gang, ăn kèm nước mắm pha và rau sống.",
-        "location": "Chợ Đầm, Chợ Xóm Mới"
-      }
-    ],
-    "Đồ uống": [
-      {
-        "name": "Nước mắm chua",
-        "image": "nuoc_mam_chua.jpg",
-        "description": "Đồ uống truyền thống Nha Trang từ nước mắm pha loãng, chua ngọt mát lạnh.",
-        "location": "Các quán ăn ven biển"
-      }
-    ],
-    "Quà mang về": [
-      {
-        "name": "Tôm khô Nha Trang",
-        "image": "tom_kho.jpg",
-        "description": "Tôm khô Nha Trang nổi tiếng thơm ngon, được phơi khô tự nhiên dưới nắng biển.",
-        "location": "Chợ Đầm, Cảng cá Nha Trang"
-      }
-    ]
-  },
-  "Thừa Thiên Huế": {
+  "Huế": {
     "Món chính": [
       {
         "name": "Bún bò Huế",
-        "image": "bun_bo_hue.jpg",
-        "description": "Bún bò cay nồng đặc trưng xứ Huế với nước dùng từ xương hầm và sả.",
-        "location": "Bún bò Bà Xuân, Bún bò Đông Ba"
+        "image": "assets/images/bun_bo_hue.jpg",
+        "description": "Món bún nổi tiếng với nước dùng cay nồng từ sả, ớt và mắm ruốc. Có thịt bò, chả cua và huyết.",
+        "location": "Bún bò Mệ Kéo, Bún bò Bà Tuyết"
       },
       {
         "name": "Cơm hến",
-        "image": "com_hen.jpg",
-        "description": "Cơm trắng ăn kèm hến xào cay và các loại rau thơm đặc trưng.",
+        "image": "assets/images/com_hen.jpg",
+        "description": "Cơm trắng chan nước hến đậm đà, ăn kèm rau sống, bánh tráng nướng và các loại gia vị.",
         "location": "Cơm hến Lệ, Cơm hến Bà Bé"
       }
     ],
     "Ăn vặt": [
       {
         "name": "Bánh khoái",
-        "image": "banh_khoai.jpg",
-        "description": "Bánh xèo Huế nhỏ xinh với tôm thịt, ăn kèm rau sống và nước chấm đậm đà.",
-        "location": "Bánh khoái Hạnh, Bánh khoái Lạc Thiện"
+        "image": "assets/images/banh_khoai.jpg",
+        "description": "Bánh xèo mini có nhân tôm, thịt, giá đỗ. Cuốn với bánh tráng, rau sống và chấm tương.",
+        "location": "Bánh khoái Lạc Thiện"
       }
     ],
     "Đồ uống": [
       {
-        "name": "Chè Huế",
-        "image": "che_hue.jpg",
-        "description": "Chè truyền thống Huế với nhiều loại đậu và nước cốt dừa thơm béo.",
-        "location": "Chè Hẻm, Chè Cung Đình"
+        "name": "Trà sen Huế",
+        "image": "assets/images/tra_sen.jpg",
+        "description": "Trà xanh ướp hương sen tự nhiên, có vị thơm dịu và thanh mát đặc trưng của cố đô.",
+        "location": "Các tiệm trà truyền thống Huế"
       }
     ],
     "Quà mang về": [
       {
         "name": "Mè xửng",
-        "image": "me_xung.jpg",
-        "description": "Kẹo mè truyền thống Huế giòn tan, ngọt dịu với hương vị đặc trưng.",
-        "location": "Mè xửng Huế truyền thống"
-      }
-    ]
-  },
-  "An Giang": {
-    "Món chính": [
-      {
-        "name": "Cá linh nướng lá chuối",
-        "image": "ca_linh_nuong.jpg",
-        "description": "Cá linh tươi nướng trong lá chuối thơm, đặc sản mùa nước nổi miền Tây.",
-        "location": "Chợ nổi Long Xuyên, Bến Tre"
-      },
-      {
-        "name": "Lẩu cá linh bông điên điển",
-        "image": "lau_ca_linh.jpg",
-        "description": "Lẩu chua ngọt với cá linh tươi và hoa điên điển đặc trưng mùa nước nổi.",
-        "location": "Các nhà hàng ven sông An Giang"
-      }
-    ],
-    "Ăn vặt": [
-      {
-        "name": "Bánh ít lá gai",
-        "image": "banh_it_la_gai.jpg",
-        "description": "Bánh ít với vỏ lá gai xanh tự nhiên, nhân tôm thịt thơm ngon.",
-        "location": "Chợ Long Xuyên"
-      }
-    ],
-    "Đồ uống": [
-      {
-        "name": "Nước mắm nhĩ",
-        "image": "nuoc_mam_nhi.jpg",
-        "description": "Đồ uống từ nước mắm nhĩ cá linh, chua ngọt mát lạnh đặc trưng An Giang.",
-        "location": "Các quán ăn địa phương"
-      }
-    ],
-    "Quà mang về": [
-      {
-        "name": "Mắm bò hóc",
-        "image": "mam_bo_hoc.jpg",
-        "description": "Mắm bò hóc An Giang nổi tiếng thơm ngon, gia vị đặc trưng miền Tây.",
-        "location": "Chợ đặc sản An Giang"
-      }
-    ]
-  },
-  "Bình Dương": {
-    "Món chính": [
-      {
-        "name": "Bánh hỏi lòng heo",
-        "image": "assets/images/banh_hoi_long_heo.jpg",
-        "description": "Bánh hỏi mềm ăn kèm lòng heo ninh cùng nước mắm chấm đậm đà.",
-        "location": "Bánh hỏi Thuận An, Dĩ An"
-      },
-      {
-        "name": "Cháo lòng",
-        "image": "assets/images/chao_long.jpg",
-        "description": "Cháo lòng heo đậm đà với tiết, gan và các loại lòng tươi ngon.",
-        "location": "Chợ Bình Dương, Thủ Dầu Một"
-      }
-    ],
-    "Ăn vặt": [
-      {
-        "name": "Bánh tráng nướng",
-        "image": "assets/images/banh_trang_nuong.jpg",
-        "description": "Bánh tráng nướng giòn với trứng, hành lá và các loại gia vị.",
-        "location": "Các quán ăn vặt Bình Dương"
-      }
-    ],
-    "Đồ uống": [
-      {
-        "name": "Nước chanh muối",
-        "image": "assets/images/nuoc_chanh_muoi.jpg",
-        "description": "Nước chanh tươi pha muối ớt, giải khát và bổ dưỡng.",
-        "location": "Các quán nước ven đường"
-      }
-    ],
-    "Quà mang về": [
-      {
-        "name": "Bánh tráng Trảng Bàng",
-        "image": "assets/images/banh_trang_trang_bang.jpg",
-        "description": "Bánh tráng Trảng Bàng nổi tiếng mỏng, giòn và thơm ngon.",
-        "location": "Trảng Bàng, Tây Ninh"
-      }
-    ]
-  },
-  "Quảng Nam": {
-    "Món chính": [
-      {
-        "name": "Cao lầu Hội An",
-        "image": "assets/images/cao_lau_hoi_an.jpg",
-        "description": "Mì cao lầu dai đặc biệt chỉ có ở Hội An, với thịt xá xíu và rau sống.",
-        "location": "Cao lầu Thành, Cao lầu Bà Lệ Hội An"
-      },
-      {
-        "name": "Mì Quảng tôm thịt",
-        "image": "assets/images/mi_quang_tom_thit.jpg",
-        "description": "Mì Quảng truyền thống với tôm tươi, thịt heo và trứng cút.",
-        "location": "Mì Quảng Bà Mua, Quán Thúy Hội An"
-      }
-    ],
-    "Ăn vặt": [
-      {
-        "name": "Bánh bao bánh vạc",
-        "image": "assets/images/banh_bao_banh_vac.jpg",
-        "description": "Bánh bao nhỏ xinh trong suốt như chiếc vạc úp, nhân tôm thịt thơm ngon.",
-        "location": "Chợ Hội An, Phố cổ Hội An"
-      }
-    ],
-    "Đồ uống": [
-      {
-        "name": "Chè bắp Hội An",
-        "image": "assets/images/che_bap_hoi_an.jpg",
-        "description": "Chè bắp ngọt mát với nước cốt dừa đặc trưng Hội An.",
-        "location": "Các quán chè phố cổ Hội An"
-      }
-    ],
-    "Quà mang về": [
-      {
-        "name": "Đèn lồng Hội An",
-        "image": "assets/images/den_long_hoi_an.jpg",
-        "description": "Đèn lồng truyền thống Hội An làm thủ công, biểu tượng văn hóa phố cổ.",
-        "location": "Phố cổ Hội An, làng nghề Hội An"
+        "image": "assets/images/me_xung.jpg",
+        "description": "Kẹo mè truyền thống Huế, giòn tan, ngọt dịu với hương vị mè thơm đặc trưng.",
+        "location": "Làng nghề Mè xửng Huế"
       }
     ]
   },
@@ -577,6 +261,406 @@
       }
     ]
   },
+  "Thái Nguyên": {
+    "Món chính": [
+      {
+        "name": "Bánh chưng gù",
+        "image": "assets/images/banh_chung_gu.jpg",
+        "description": "Bánh chưng gù Thái Nguyên đặc biệt với hình dáng độc đáo và hương vị truyền thống.",
+        "location": "Thành phố Thái Nguyên"
+      },
+      {
+        "name": "Cháo lòng",
+        "image": "assets/images/chao_long.jpg",
+        "description": "Cháo lòng heo đậm đà với tiết, gan và các loại lòng tươi ngon.",
+        "location": "Các quán cháo Thái Nguyên"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh tét lá cẩm",
+        "image": "assets/images/banh_tet_la_cam.jpg",
+        "description": "Bánh tét lá cẩm có màu tím đặc trưng, nhân đậu xanh thơm ngon.",
+        "location": "Các chợ địa phương Thái Nguyên"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Trà Thái Nguyên",
+        "image": "assets/images/tra_thai_nguyen.jpg",
+        "description": "Trà Thái Nguyên nổi tiếng với hương thơm đặc trưng và vị đậm đà.",
+        "location": "Các vườn chè Thái Nguyên"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Chè khô Thái Nguyên",
+        "image": "assets/images/che_kho_thai_nguyen.jpg",
+        "description": "Chè khô Thái Nguyên cao cấp, đặc sản trà nổi tiếng cả nước.",
+        "location": "Các cơ sở chế biến chè Thái Nguyên"
+      }
+    ]
+  },
+  "Phú Thọ": {
+    "Món chính": [
+      {
+        "name": "Bánh chưng xanh",
+        "image": "assets/images/banh_chung_xanh.jpg",
+        "description": "Bánh chưng xanh truyền thống đất tổ với lá dong rừng thơm ngon.",
+        "location": "Đền Hùng, Việt Trì"
+      },
+      {
+        "name": "Cháo cá rô đồng",
+        "image": "assets/images/chao_ca_ro_dong.jpg",
+        "description": "Cháo cá rô đồng Phú Thọ đậm đà với cá rô tươi đồng quê.",
+        "location": "Các làng quê Phú Thọ"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh giò",
+        "image": "assets/images/banh_gio.jpg",
+        "description": "Bánh giò Phú Thọ truyền thống với nhân thịt và mộc nhĩ.",
+        "location": "Các chợ Phú Thọ"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Rượu cần Mường",
+        "image": "assets/images/ruou_can_muong.jpg",
+        "description": "Rượu cần Mường Phú Thọ uống bằng ống tre, đặc sản dân tộc.",
+        "location": "Các bản Mường Phú Thọ"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Bánh đậu xanh Phú Thọ",
+        "image": "assets/images/banh_dau_xanh_phu_tho.jpg",
+        "description": "Bánh đậu xanh Phú Thọ thơm béo, ngọt dịu đặc sản đất tổ.",
+        "location": "Các cửa hàng đặc sản Phú Thọ"
+      }
+    ]
+  },
+  "Bắc Ninh": {
+    "Món chính": [
+      {
+        "name": "Chả cá Bắc Ninh",
+        "image": "assets/images/cha_ca_bac_ninh.jpg",
+        "description": "Chả cá Bắc Ninh thơm ngon với cá tươi và gia vị truyền thống.",
+        "location": "Thành phố Bắc Ninh"
+      },
+      {
+        "name": "Bún thang",
+        "image": "assets/images/bun_thang.jpg",
+        "description": "Bún thang Bắc Ninh với nước dùng trong, nhiều loại topping.",
+        "location": "Các quán bún thang Bắc Ninh"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh phu thê",
+        "image": "assets/images/banh_phu_the.jpg",
+        "description": "Bánh phu thê Bắc Ninh truyền thống, biểu tượng tình yêu vợ chồng.",
+        "location": "Làng nghề bánh phu thê"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Trà sen Tây Hồ",
+        "image": "assets/images/tra_sen_tay_ho.jpg",
+        "description": "Trà sen Tây Hồ thơm ngọt, ướp trong nụ sen tươi.",
+        "location": "Các làng trà Bắc Ninh"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Tranh dân gian Đông Hồ",
+        "image": "assets/images/tranh_dong_ho.jpg",
+        "description": "Tranh dân gian Đông Hồ truyền thống, di sản văn hóa Bắc Ninh.",
+        "location": "Làng tranh Đông Hồ"
+      }
+    ]
+  },
+  "Hưng Yên": {
+    "Món chính": [
+      {
+        "name": "Bánh đúc tôm thịt",
+        "image": "assets/images/banh_duc_tom_thit.jpg",
+        "description": "Bánh đúc Hưng Yên trắng mịn với tôm thịt và nước mắm chua ngọt.",
+        "location": "Thành phố Hưng Yên"
+      },
+      {
+        "name": "Cháo trai",
+        "image": "assets/images/chao_trai.jpg",
+        "description": "Cháo trai Hưng Yên đậm đà với trai tươi sông Hồng.",
+        "location": "Các làng ven sông Hưng Yên"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh chưng gù",
+        "image": "assets/images/banh_chung_gu_hung_yen.jpg",
+        "description": "Bánh chưng gù Hưng Yên đặc biệt với hình dáng độc đáo.",
+        "location": "Làng nghề bánh chưng Hưng Yên"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Rượu cần Tây Bắc",
+        "image": "assets/images/ruou_can_tay_bac.jpg",
+        "description": "Rượu cần truyền thống uống bằng ống tre, đặc sản vùng cao.",
+        "location": "Các bản làng Hưng Yên"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Longan khô Hưng Yên",
+        "image": "assets/images/longan_kho_hung_yen.jpg",
+        "description": "Longan khô Hưng Yên ngọt thơm, đặc sản trái cây sấy khô.",
+        "location": "Các vườn longan Hưng Yên"
+      }
+    ]
+  },
+  "Ninh Bình": {
+    "Món chính": [
+      {
+        "name": "Cơm cháy dê núi",
+        "image": "assets/images/com_chay_de_nui.jpg",
+        "description": "Cơm cháy dê núi Ninh Bình đặc sản với thịt dê tươi vùng núi đá.",
+        "location": "Tràng An, Tam Cốc"
+      },
+      {
+        "name": "Cháo cá rô đồng",
+        "image": "assets/images/chao_ca_ro_dong_ninh_binh.jpg",
+        "description": "Cháo cá rô đồng Ninh Bình với cá rô tươi từ ruộng lúa.",
+        "location": "Các làng quê Ninh Bình"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh gai Ninh Bình",
+        "image": "assets/images/banh_gai_ninh_binh.jpg",
+        "description": "Bánh gai Ninh Bình với lá gai rừng, nhân đậu xanh thơm ngon.",
+        "location": "Các chợ Ninh Bình"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Rượu cần",
+        "image": "assets/images/ruou_can_ninh_binh.jpg",
+        "description": "Rượu cần Ninh Bình truyền thống của các dân tộc thiểu số.",
+        "location": "Các bản làng Ninh Bình"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Yến sào Ninh Bình",
+        "image": "assets/images/yen_sao_ninh_binh.jpg",
+        "description": "Yến sào Ninh Bình từ các hang động tự nhiên, bổ dưỡng cao.",
+        "location": "Các hang động Ninh Bình"
+      }
+    ]
+  },
+  "Cao Bằng": {
+    "Món chính": [
+      {
+        "name": "Cháo ấu tầu",
+        "image": "assets/images/chao_au_tau.jpg",
+        "description": "Cháo ấu tầu Cao Bằng đặc sản biên giới với đậu đen và thịt heo.",
+        "location": "Thành phố Cao Bằng"
+      },
+      {
+        "name": "Thịt trâu sấy khô",
+        "image": "assets/images/thit_trau_say_kho.jpg",
+        "description": "Thịt trâu sấy khô Cao Bằng dai thơm, đặc sản vùng biên giới.",
+        "location": "Các bản làng Cao Bằng"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh coóc mò",
+        "image": "assets/images/banh_cooc_mo.jpg",
+        "description": "Bánh coóc mò Cao Bằng của người Tày, làm từ bột nếp.",
+        "location": "Các bản Tày Cao Bằng"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Rượu ngô Cao Bằng",
+        "image": "assets/images/ruou_ngo_cao_bang.jpg",
+        "description": "Rượu ngô Cao Bằng thơm mạnh từ ngô vùng cao biên giới.",
+        "location": "Các làng nghề rượu Cao Bằng"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Hồng xiêm Cao Bằng",
+        "image": "assets/images/hong_xiem_cao_bang.jpg",
+        "description": "Hồng xiêm Cao Bằng ngọt thơm, trái cây đặc sản vùng biên giới.",
+        "location": "Các vườn hồng Cao Bằng"
+      }
+    ]
+  },
+  "Điện Biên": {
+    "Món chính": [
+      {
+        "name": "Cơm lam",
+        "image": "assets/images/com_lam.jpg",
+        "description": "Cơm lam nướng trong ống tre, thơm mùi lá dong và tre tươi.",
+        "location": "Điện Biên Phủ, Mường Thanh"
+      },
+      {
+        "name": "Thịt trâu gác bếp",
+        "image": "assets/images/thit_trau_gac_bep_dien_bien.jpg",
+        "description": "Thịt trâu gác bếp Điện Biên hun khói thơm lừng đặc sản Tây Bắc.",
+        "location": "Các bản Thái, Mường"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh chưng lá dong",
+        "image": "assets/images/banh_chung_la_dong_dien_bien.jpg",
+        "description": "Bánh chưng lá dong Điện Biên với hương thơm lá dong rừng.",
+        "location": "Các bản làng Điện Biên"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Rượu cần Thái",
+        "image": "assets/images/ruou_can_thai.jpg",
+        "description": "Rượu cần Thái Điện Biên uống bằng ống tre, đặc sản dân tộc.",
+        "location": "Các bản Thái Điện Biên"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Mật ong rừng Điện Biên",
+        "image": "assets/images/mat_ong_rung_dien_bien.jpg",
+        "description": "Mật ong rừng Điện Biên nguyên chất từ các tổ ong rừng tự nhiên.",
+        "location": "Các khu rừng Điện Biên"
+      }
+    ]
+  },
+  "Hà Tĩnh": {
+    "Món chính": [
+      {
+        "name": "Bánh bèo Hà Tĩnh",
+        "image": "assets/images/banh_beo_ha_tinh.jpg",
+        "description": "Bánh bèo Hà Tĩnh nhỏ xinh với tôm chấy và mỡ hành thơm ngon.",
+        "location": "Thành phố Hà Tĩnh"
+      },
+      {
+        "name": "Cháo canh Hà Tĩnh",
+        "image": "assets/images/chao_canh_ha_tinh.jpg",
+        "description": "Cháo canh Hà Tĩnh với thịt heo, tôm khô và rau muống đặc trưng.",
+        "location": "Các quán cháo Hà Tĩnh"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh nậm",
+        "image": "assets/images/banh_nam.jpg",
+        "description": "Bánh nậm Hà Tĩnh gói lá chuối với nhân tôm thịt đặc sản miền Trung.",
+        "location": "Các chợ địa phương Hà Tĩnh"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Chè lam Hà Tĩnh",
+        "image": "assets/images/che_lam_ha_tinh.jpg",
+        "description": "Chè lam nướng trong ống tre, thơm mùi lá dong và tre tươi.",
+        "location": "Các vùng núi Hà Tĩnh"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Bánh đậu xanh Hà Tĩnh",
+        "image": "assets/images/banh_dau_xanh_ha_tinh.jpg",
+        "description": "Bánh đậu xanh Hà Tĩnh thơm béo, ngọt dịu đặc sản quê hương.",
+        "location": "Các cửa hàng đặc sản Hà Tĩnh"
+      }
+    ]
+  },
+  "Lai Châu": {
+    "Món chính": [
+      {
+        "name": "Cá suối nướng lá chuối",
+        "image": "assets/images/ca_suoi_nuong_la_chuoi_lai_chau.jpg",
+        "description": "Cá suối nướng lá chuối Lai Châu tươi ngon từ suối núi trong lành.",
+        "location": "Các bản làng Lai Châu"
+      },
+      {
+        "name": "Thắng cố Lai Châu",
+        "image": "assets/images/thang_co_lai_chau.jpg",
+        "description": "Thắng cố Lai Châu món ăn truyền thống của người H'Mông.",
+        "location": "Các bản H'Mông Lai Châu"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh dày",
+        "image": "assets/images/banh_day_lai_chau.jpg",
+        "description": "Bánh dày Lai Châu trắng mịn, đặc sản của người Tày Nùng.",
+        "location": "Các bản Tày Nùng Lai Châu"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Trà Shan Tuyết Lai Châu",
+        "image": "assets/images/tra_shan_tuyet_lai_chau.jpg",
+        "description": "Trà Shan Tuyết Lai Châu từ cây chè cổ thụ hàng trăm năm tuổi.",
+        "location": "Các vườn chè cổ thụ Lai Châu"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Quế Lai Châu",
+        "image": "assets/images/que_lai_chau.jpg",
+        "description": "Quế Lai Châu thơm nồng, gia vị đặc sản vùng núi Tây Bắc.",
+        "location": "Các vườn quế Lai Châu"
+      }
+    ]
+  },
+  "Lạng Sơn": {
+    "Món chính": [
+      {
+        "name": "Phở chua Lạng Sơn",
+        "image": "assets/images/pho_chua_lang_son.jpg",
+        "description": "Phở chua Lạng Sơn đặc sản biên giới với nước dùng chua ngọt độc đáo.",
+        "location": "Thành phố Lạng Sơn, Đồng Đăng"
+      },
+      {
+        "name": "Thịt chua",
+        "image": "assets/images/thit_chua.jpg",
+        "description": "Thịt chua Lạng Sơn lên men tự nhiên, đặc sản vùng cao biên giới.",
+        "location": "Các bản làng Lạng Sơn"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh cuốn nướng",
+        "image": "assets/images/banh_cuon_nuong.jpg",
+        "description": "Bánh cuốn nướng Lạng Sơn giòn tan với nhân thịt băm thơm ngon.",
+        "location": "Chợ Lạng Sơn"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Rượu táo mèo",
+        "image": "assets/images/ruou_tao_meo.jpg",
+        "description": "Rượu táo mèo Lạng Sơn từ táo rừng, đặc sản vùng biên giới.",
+        "location": "Các bản làng Lạng Sơn"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Táo mèo khô",
+        "image": "assets/images/tao_meo_kho.jpg",
+        "description": "Táo mèo khô Lạng Sơn chua ngọt, trái cây sấy khô đặc sản.",
+        "location": "Các cửa hàng đặc sản Lạng Sơn"
+      }
+    ]
+  },
   "Nghệ An": {
     "Món chính": [
       {
@@ -617,6 +701,46 @@
       }
     ]
   },
+  "Quảng Ninh": {
+    "Món chính": [
+      {
+        "name": "Bánh cuốn Hạ Long",
+        "image": "assets/images/banh_cuon_ha_long.jpg",
+        "description": "Bánh cuốn Hạ Long với nhân tôm thịt đặc biệt, vỏ bánh mỏng dai.",
+        "location": "Chợ Hạ Long, Bãi Cháy"
+      },
+      {
+        "name": "Cua Hạ Long rang me",
+        "image": "assets/images/cua_ha_long_rang_me.jpg",
+        "description": "Cua Hạ Long tươi rang me chua ngọt, đặc sản vịnh di sản thế giới.",
+        "location": "Các nhà hàng hải sản Hạ Long"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh gai",
+        "image": "assets/images/banh_gai.jpg",
+        "description": "Bánh gai Quảng Ninh với vỏ lá gai xanh đặc trưng, nhân đậu xanh.",
+        "location": "Làng nghề bánh gai Quảng Ninh"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Chè hạt sen",
+        "image": "assets/images/che_hat_sen.jpg",
+        "description": "Chè hạt sen Quảng Ninh ngọt mát, bổ dưỡng từ sen tự nhiên.",
+        "location": "Các quán chè Hạ Long"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Ngọc trai Hạ Long",
+        "image": "assets/images/ngoc_trai_ha_long.jpg",
+        "description": "Ngọc trai Hạ Long nuôi tự nhiên, biểu tượng vịnh di sản.",
+        "location": "Các trang trại ngọc trai Hạ Long"
+      }
+    ]
+  },
   "Thanh Hóa": {
     "Món chính": [
       {
@@ -644,7 +768,7 @@
       {
         "name": "Trà sen Hồ Tây",
         "image": "assets/images/tra_sen_ho_tay.jpg",
-        "description": "Trà sen thơm ngọt được ưỜp trong nụ sen tươi, đặc sản trà Việt.",
+        "description": "Trà sen thơm ngọt được ướp trong nụ sen tươi, đặc sản trà Việt.",
         "location": "Các làng trà Thanh Hóa"
       }
     ],
@@ -657,43 +781,403 @@
       }
     ]
   },
-  "Phú Quốc": {
+  "Sơn La": {
     "Món chính": [
       {
-        "name": "Bún kến Phú Quốc",
-        "image": "assets/images/bun_ken_phu_quoc.jpg",
-        "description": "Bún kến với cá ngừ tươi, nước dùng đậm đà và rau thơm đảo ngọc.",
-        "location": "Chợ Đông Dương, Dương Đông"
+        "name": "Cá suối nướng",
+        "image": "assets/images/ca_suoi_nuong_son_la.jpg",
+        "description": "Cá suối nướng Sơn La tươi ngon từ suối núi trong lành.",
+        "location": "Các bản làng Sơn La"
       },
       {
-        "name": "Cá ngữ nướng giấy bạc",
-        "image": "assets/images/ca_ngu_nuong_giay_bac.jpg",
-        "description": "Cá ngữ tươi nướng giấy bạc giữ nguyên độ tươi ngọt của cá.",
-        "location": "Các nhà hàng hải sản Phú Quốc"
+        "name": "Thịt trâu gác bếp",
+        "image": "assets/images/thit_trau_gac_bep_son_la.jpg",
+        "description": "Thịt trâu gác bếp Sơn La hun khói thơm lừng đặc sản vùng cao.",
+        "location": "Các bản Thái Sơn La"
       }
     ],
     "Ăn vặt": [
       {
-        "name": "Bánh kẹp lá dứa",
-        "image": "assets/images/banh_kep_la_dua.jpg",
-        "description": "Bánh kẹp giòn rụm làm từ bột gạo và nước cốt dừa, đặc sản đảo ngọc.",
-        "location": "Làng nghề bánh kẹp Phú Quốc"
+        "name": "Bánh chưng đen",
+        "image": "assets/images/banh_chung_den_son_la.jpg",
+        "description": "Bánh chưng đen của người Thái với lá dong rừng, có màu đen đặc trưng.",
+        "location": "Các bản Thái ở Sơn La"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Rượu cần Thái",
+        "image": "assets/images/ruou_can_thai_son_la.jpg",
+        "description": "Rượu cần truyền thống của người Thái, uống bằng ống tre.",
+        "location": "Các bản Thái Sơn La"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Mật ong rừng",
+        "image": "assets/images/mat_ong_rung_son_la.jpg",
+        "description": "Mật ong rừng Sơn La nguyên chất từ các tổ ong rừng ở vùng cao.",
+        "location": "Các khu rừng Sơn La"
+      }
+    ]
+  },
+  "Quảng Trị": {
+    "Món chính": [
+      {
+        "name": "Bánh bèo Quảng Trị",
+        "image": "assets/images/banh_beo_quang_tri.jpg",
+        "description": "Bánh bèo Quảng Trị nhỏ xinh với tôm chấy và mỡ hành thơm ngon.",
+        "location": "Thành phố Đông Hà"
+      },
+      {
+        "name": "Cháo hến Quảng Trị",
+        "image": "assets/images/chao_hen_quang_tri.jpg",
+        "description": "Cháo hến Quảng Trị đậm đà với hến tươi sông Thạch Hãn.",
+        "location": "Các quán cháo Quảng Trị"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh nậm Quảng Trị",
+        "image": "assets/images/banh_nam_quang_tri.jpg",
+        "description": "Bánh nậm gói lá chuối với nhân tôm thịt đặc sản miền Trung.",
+        "location": "Các chợ địa phương Quảng Trị"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Chè lam Quảng Trị",
+        "image": "assets/images/che_lam_quang_tri.jpg",
+        "description": "Chè lam nướng trong ống tre, thơm mùi lá dong và tre tươi.",
+        "location": "Các vùng núi Quảng Trị"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Bánh đậu xanh Quảng Trị",
+        "image": "assets/images/banh_dau_xanh_quang_tri.jpg",
+        "description": "Bánh đậu xanh Quảng Trị thơm béo, ngọt dịu đặc sản miền Trung.",
+        "location": "Các cửa hàng đặc sản Quảng Trị"
+      }
+    ]
+  },
+  "Quảng Ngãi": {
+    "Món chính": [
+      {
+        "name": "Bánh xèo Quảng Ngãi",
+        "image": "assets/images/banh_xeo_quang_ngai.jpg",
+        "description": "Bánh xèo Quảng Ngãi giòn tan với nhân tôm thịt, ăn kèm rau sống.",
+        "location": "Thành phố Quảng Ngãi"
+      },
+      {
+        "name": "Mì Quảng Quảng Ngãi",
+        "image": "assets/images/mi_quang_quang_ngai.jpg",
+        "description": "Mì Quảng Quảng Ngãi với nước dùng đậm đà, bánh tráng mè thơm ngon.",
+        "location": "Các quán mì Quảng Quảng Ngãi"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh tráng nướng Quảng Ngãi",
+        "image": "assets/images/banh_trang_nuong_quang_ngai.jpg",
+        "description": "Bánh tráng nướng giòn với trứng, hành lá và các loại gia vị.",
+        "location": "Các quán ăn vặt Quảng Ngãi"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Chè bắp Quảng Ngãi",
+        "image": "assets/images/che_bap_quang_ngai.jpg",
+        "description": "Chè bắp ngọt mát với nước cốt dừa đặc trưng miền Trung.",
+        "location": "Các quán chè Quảng Ngãi"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Bánh tráng Quảng Ngãi",
+        "image": "assets/images/banh_trang_quang_ngai.jpg",
+        "description": "Bánh tráng Quảng Ngãi mỏng, giòn và thơm ngon.",
+        "location": "Các làng nghề bánh tráng Quảng Ngãi"
+      }
+    ]
+  },
+  "Gia Lai": {
+    "Món chính": [
+      {
+        "name": "Cơm lam Gia Lai",
+        "image": "assets/images/com_lam_gia_lai.jpg",
+        "description": "Cơm lam nướng trong ống tre, thơm mùi lá dong và tre tươi.",
+        "location": "Pleiku, các bản làng Gia Lai"
+      },
+      {
+        "name": "Thịt nướng lá chuối",
+        "image": "assets/images/thit_nuong_la_chuoi.jpg",
+        "description": "Thịt nướng lá chuối Gia Lai thơm lừng, đặc sản Tây Nguyên.",
+        "location": "Các bản làng Gia Lai"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh ít lá chuối",
+        "image": "assets/images/banh_it_la_chuoi_gia_lai.jpg",
+        "description": "Bánh ít lá chuối Gia Lai với nhân đậu xanh và thịt băm.",
+        "location": "Các chợ địa phương Gia Lai"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Rượu cần Gia Lai",
+        "image": "assets/images/ruou_can_gia_lai.jpg",
+        "description": "Rượu cần truyền thống của các dân tộc Tây Nguyên, uống bằng ống tre.",
+        "location": "Các bản làng Gia Lai"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Cà phê Gia Lai",
+        "image": "assets/images/ca_phe_gia_lai.jpg",
+        "description": "Cà phê Gia Lai thơm đậm từ cao nguyên Tây Nguyên.",
+        "location": "Các vườn cà phê Gia Lai"
+      }
+    ]
+  },
+  "Khánh Hòa": {
+    "Món chính": [
+      {
+        "name": "Bánh căn Nha Trang",
+        "image": "assets/images/banh_can_nha_trang.jpg",
+        "description": "Bánh căn Nha Trang giòn ngoài mềm trong, ăn kèm nước mắm pha.",
+        "location": "Chợ Đầm, Nha Trang"
+      },
+      {
+        "name": "Bún sứa",
+        "image": "assets/images/bun_sua.jpg",
+        "description": "Bún sứa Nha Trang với sứa biển tươi ngon, đặc sản biển.",
+        "location": "Các nhà hàng hải sản Nha Trang"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh xèo tôm nhảy",
+        "image": "assets/images/banh_xeo_tom_nhay.jpg",
+        "description": "Bánh xèo tôm nhảy Nha Trang với tôm tươi còn nhảy trong bánh.",
+        "location": "Các quán ăn vặt Nha Trang"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Nước mía lau",
+        "image": "assets/images/nuoc_mia_lau_khanh_hoa.jpg",
+        "description": "Nước mía lau Khánh Hòa ngọt mát, giải khát vùng biển.",
+        "location": "Các vườn mía Khánh Hòa"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Yến sào Khánh Hòa",
+        "image": "assets/images/yen_sao_khanh_hoa.jpg",
+        "description": "Yến sào Khánh Hòa từ các đảo tự nhiên, bổ dưỡng cao.",
+        "location": "Các đảo Khánh Hòa"
+      }
+    ]
+  },
+  "Lâm Đồng": {
+    "Món chính": [
+      {
+        "name": "Lẩu gà lá é",
+        "image": "assets/images/lau_ga_la_e.jpg",
+        "description": "Lẩu gà lá é Đà Lạt với gà rừng và lá é đặc trưng vùng cao.",
+        "location": "Các nhà hàng Đà Lạt"
+      },
+      {
+        "name": "Bánh tráng nướng Đà Lạt",
+        "image": "assets/images/banh_trang_nuong_da_lat.jpg",
+        "description": "Bánh tráng nướng Đà Lạt với trứng, hành lá và các loại topping.",
+        "location": "Chợ đêm Đà Lạt"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh căn mini",
+        "image": "assets/images/banh_can_mini.jpg",
+        "description": "Bánh căn mini Đà Lạt nhỏ xinh, ăn kèm tương ớt đặc biệt.",
+        "location": "Các quán ăn vặt Đà Lạt"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Rượu vang Đà Lạt",
+        "image": "assets/images/ruou_vang_da_lat.jpg",
+        "description": "Rượu vang Đà Lạt từ nho tươi vùng cao nguyên Lâm Viên.",
+        "location": "Các vườn nho Đà Lạt"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Mứt dâu tây",
+        "image": "assets/images/mut_dau_tay.jpg",
+        "description": "Mứt dâu tây Đà Lạt ngọt thanh từ dâu tây tươi vùng cao.",
+        "location": "Các vườn dâu Đà Lạt"
+      }
+    ]
+  },
+  "Đắk Lắk": {
+    "Món chính": [
+      {
+        "name": "Cơm lam Đắk Lắk",
+        "image": "assets/images/com_lam_dak_lak.jpg",
+        "description": "Cơm lam nướng trong ống tre, thơm mùi lá dong và tre tươi.",
+        "location": "Buôn Ma Thuột, các bản làng Đắk Lắk"
+      },
+      {
+        "name": "Thịt nướng lá chuối",
+        "image": "assets/images/thit_nuong_la_chuoi_dak_lak.jpg",
+        "description": "Thịt nướng lá chuối Đắk Lắk thơm lừng, đặc sản Tây Nguyên.",
+        "location": "Các bản làng Đắk Lắk"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh ít lá chuối",
+        "image": "assets/images/banh_it_la_chuoi_dak_lak.jpg",
+        "description": "Bánh ít lá chuối Đắk Lắk với nhân đậu xanh và thịt băm.",
+        "location": "Các chợ địa phương Đắk Lắk"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Cà phê Buôn Ma Thuột",
+        "image": "assets/images/ca_phe_buon_ma_thuot.jpg",
+        "description": "Cà phê Buôn Ma Thuột thơm đậm từ cao nguyên Tây Nguyên.",
+        "location": "Các vườn cà phê Buôn Ma Thuột"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Cà phê hạt Đắk Lắk",
+        "image": "assets/images/ca_phe_hat_dak_lak.jpg",
+        "description": "Cà phê hạt Đắk Lắk nguyên chất, đặc sản cao nguyên.",
+        "location": "Các cơ sở rang xay Đắk Lắk"
+      }
+    ]
+  },
+  "Đồng Nai": {
+    "Món chính": [
+      {
+        "name": "Bánh canh cua Đồng Nai",
+        "image": "assets/images/banh_canh_cua_dong_nai.jpg",
+        "description": "Bánh canh cua Đồng Nai với cua đồng tươi ngon, nước dùng đậm đà.",
+        "location": "Biên Hòa, Long Thành"
+      },
+      {
+        "name": "Gỏi cuốn Đồng Nai",
+        "image": "assets/images/goi_cuon_dong_nai.jpg",
+        "description": "Gỏi cuốn Đồng Nai với tôm thịt tươi ngon, rau sống và bánh tráng.",
+        "location": "Các nhà hàng Đồng Nai"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh tráng nướng",
+        "image": "assets/images/banh_trang_nuong_dong_nai.jpg",
+        "description": "Bánh tráng nướng giòn với trứng, hành lá và các loại gia vị.",
+        "location": "Các quán ăn vặt Đồng Nai"
       }
     ],
     "Đồ uống": [
       {
         "name": "Nước dừa tươi",
-        "image": "assets/images/nuoc_dua_tuoi_phu_quoc.jpg",
-        "description": "Nước dừa tươi mát lạnh từ những trái dừa xiêm xanh đảo Phú Quốc.",
-        "location": "Khắp đảo Phú Quốc"
+        "image": "assets/images/nuoc_dua_tuoi_dong_nai.jpg",
+        "description": "Nước dừa tươi mát lạnh từ những trái dừa xiêm xanh Đồng Nai.",
+        "location": "Các vườn dừa Đồng Nai"
       }
     ],
     "Quà mang về": [
       {
-        "name": "Nước mắm Phú Quốc",
-        "image": "assets/images/nuoc_mam_phu_quoc.jpg",
-        "description": "Nước mắm Phú Quốc nổi tiếng thế giới, được làm từ cá cơm tươi.",
-        "location": "Các nhà máy nước mắm Phú Quốc"
+        "name": "Kẹo dừa Đồng Nai",
+        "image": "assets/images/keo_dua_dong_nai.jpg",
+        "description": "Kẹo dừa Đồng Nai thơm béo, ngọt dịu đặc sản miền Đông.",
+        "location": "Các cửa hàng đặc sản Đồng Nai"
+      }
+    ]
+  },
+  "Tây Ninh": {
+    "Món chính": [
+      {
+        "name": "Bánh canh cua Tây Ninh",
+        "image": "assets/images/banh_canh_cua_tay_ninh.jpg",
+        "description": "Bánh canh cua Tây Ninh với cua đồng tươi ngon, nước dùng trong ngọt.",
+        "location": "Thành phố Tây Ninh"
+      },
+      {
+        "name": "Bánh tráng phơi sương",
+        "image": "assets/images/banh_trang_phoi_suong.jpg",
+        "description": "Bánh tráng phơi sương Tây Ninh mỏng, giòn và thơm ngon đặc biệt.",
+        "location": "Các làng nghề bánh tráng Tây Ninh"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh xèo Tây Ninh",
+        "image": "assets/images/banh_xeo_tay_ninh.jpg",
+        "description": "Bánh xèo Tây Ninh to, giòn rụm với nhân tôm thịt đầy đặn.",
+        "location": "Các quán bánh xèo Tây Ninh"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Nước mía lau",
+        "image": "assets/images/nuoc_mia_lau_tay_ninh.jpg",
+        "description": "Nước mía lau Tây Ninh ngọt mát từ mía lau đặc sản.",
+        "location": "Các vườn mía Tây Ninh"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Bánh tráng Trảng Bàng",
+        "image": "assets/images/banh_trang_trang_bang.jpg",
+        "description": "Bánh tráng Trảng Bàng nổi tiếng mỏng, giòn và thơm ngon.",
+        "location": "Trảng Bàng, Tây Ninh"
+      }
+    ]
+  },
+  "Vĩnh Long": {
+    "Món chính": [
+      {
+        "name": "Bánh xèo miền Tây",
+        "image": "assets/images/banh_xeo_vinh_long.jpg",
+        "description": "Bánh xèo Vĩnh Long to, giòn rụm với nhân tôm thịt đầy đặn, ăn kèm rau sống.",
+        "location": "Thành phố Vĩnh Long"
+      },
+      {
+        "name": "Lẩu cá linh bông điên điển",
+        "image": "assets/images/lau_ca_linh_bong_dien_dien.jpg",
+        "description": "Lẩu cá linh bông điên điển Vĩnh Long chua ngọt đặc trưng mùa nước nổi.",
+        "location": "Các nhà hàng Vĩnh Long"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh cống Vĩnh Long",
+        "image": "assets/images/banh_cong_vinh_long.jpg",
+        "description": "Bánh cống giòn rụm với nhân tôm, thịt, giá đỗ, ăn kèm rau sống.",
+        "location": "Các quán ăn vặt Vĩnh Long"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Nước dừa tươi",
+        "image": "assets/images/nuoc_dua_tuoi_vinh_long.jpg",
+        "description": "Nước dừa tươi mát lạnh từ những trái dừa xiêm xanh Vĩnh Long.",
+        "location": "Các vườn dừa Vĩnh Long"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Kẹo dừa sáp",
+        "image": "assets/images/keo_dua_sap_vinh_long.jpg",
+        "description": "Kẹo dừa sáp thơm béo, ngọt dịu đặc sản miền Tây Nam Bộ.",
+        "location": "Các cửa hàng đặc sản Vĩnh Long"
       }
     ]
   },
@@ -734,6 +1218,86 @@
         "image": "assets/images/gao_thom_jasmine.jpg",
         "description": "Gạo thơm Jasmine Đồng Tháp nổi tiếng với hương thơm tự nhiên.",
         "location": "Các vùng trồng lúa Đồng Tháp"
+      }
+    ]
+  },
+  "Cà Mau": {
+    "Món chính": [
+      {
+        "name": "Bánh canh cua Cà Mau",
+        "image": "assets/images/banh_canh_cua_ca_mau.jpg",
+        "description": "Bánh canh cua Cà Mau với cua biển tươi ngon, nước dùng đậm đà.",
+        "location": "Thành phố Cà Mau"
+      },
+      {
+        "name": "Lẩu cá kèo",
+        "image": "assets/images/lau_ca_keo.jpg",
+        "description": "Lẩu cá kèo Cà Mau với cá kèo tươi ngon, đặc sản miền Tây cực Nam.",
+        "location": "Các nhà hàng Cà Mau"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh cống Cà Mau",
+        "image": "assets/images/banh_cong_ca_mau.jpg",
+        "description": "Bánh cống giòn rụm với nhân tôm, thịt, giá đỗ đặc sản Cà Mau.",
+        "location": "Các quán ăn vặt Cà Mau"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Nước dừa tươi",
+        "image": "assets/images/nuoc_dua_tuoi_ca_mau.jpg",
+        "description": "Nước dừa tươi mát lạnh từ những trái dừa xiêm xanh Cà Mau.",
+        "location": "Các vườn dừa Cà Mau"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Mắm ruốc Cà Mau",
+        "image": "assets/images/mam_ruoc_ca_mau.jpg",
+        "description": "Mắm ruốc Cà Mau thơm ngon, gia vị đặc trưng miền Tây cực Nam.",
+        "location": "Các làng nghề mắm ruốc Cà Mau"
+      }
+    ]
+  },
+  "An Giang": {
+    "Món chính": [
+      {
+        "name": "Bún nước lèo",
+        "image": "assets/images/bun_nuoc_leo.jpg",
+        "description": "Bún nước lèo An Giang với nước dùng đậm đà từ cá lóc và các loại gia vị.",
+        "location": "Châu Đốc, Long Xuyên"
+      },
+      {
+        "name": "Lẩu mắm",
+        "image": "assets/images/lau_mam_an_giang.jpg",
+        "description": "Lẩu mắm An Giang đặc trưng miền Tây với nước dùng từ mắm cá linh.",
+        "location": "Các nhà hàng An Giang"
+      }
+    ],
+    "Ăn vặt": [
+      {
+        "name": "Bánh cống An Giang",
+        "image": "assets/images/banh_cong_an_giang.jpg",
+        "description": "Bánh cống giòn rụm với nhân tôm, thịt, giá đỗ đặc sản An Giang.",
+        "location": "Các quán ăn vặt An Giang"
+      }
+    ],
+    "Đồ uống": [
+      {
+        "name": "Nước mía lau",
+        "image": "assets/images/nuoc_mia_lau_an_giang.jpg",
+        "description": "Nước mía lau An Giang ngọt mát từ mía lau đặc sản miền Tây.",
+        "location": "Các vườn mía An Giang"
+      }
+    ],
+    "Quà mang về": [
+      {
+        "name": "Mắm bò hóc",
+        "image": "assets/images/mam_bo_hoc.jpg",
+        "description": "Mắm bò hóc An Giang nổi tiếng thơm ngon, gia vị đặc trưng miền Tây.",
+        "location": "Chợ đặc sản An Giang"
       }
     ]
   }
